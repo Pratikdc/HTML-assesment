@@ -551,18 +551,18 @@
 
 @media (max-width:767px) {
     #content-desktop {
-        display: none
+        display: none;
     }
     #content-mobile {
-        display: block
+        display: block;
     }
 }
 
 @media (min-width:768px) {
     #content-desktop {
-        display: block
+        display: block;
     }
     #content-mobile {
-        display: none
+        display: none;
     }
 }
