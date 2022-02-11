@@ -150,7 +150,7 @@
     left: 20%;
     font-size: 90px;
     top: 10%;
-    color: rgb(22, 22, 22, 0.3);
+    color: rgba(22, 22, 22, 0.3);
   }
   .heading1 {
     font-size: 50px;
@@ -405,21 +405,21 @@
   }
   .number1 {
     position: absolute;
-    left: 20%;
+    /* left: 20%;*/
     font-size: 130px;
-    top: 10%;
+    /*top: 10%;*/
     color: rgb(22, 22, 22, 0.3);
   }
   .number21 {
     position: absolute;
-    left: 20%;
+    left: 10%;
     font-size: 130px;
-    top: 10%;
+    /*top: 150%;*/
     color: rgb(22, 22, 22, 0.3);
   }
   .heading1 {
     font-size: 40px;
-    margin-top: 19%;
+    margin-top: 5%;
     margin-left: 15%;
     color: rgb(22, 22, 22, 0.3);
   }
@@ -437,9 +437,14 @@
   }
   .heading21 {
     font-size: 37px;
-    margin-top: 31%;
+    margin-top: 8%;
     margin-left: 23%;
     color: rgb(22, 22, 22, 0.3);
+  }
+
+  .content {
+    margin-top: 0.01px;
+    margin-left: 35%;
   }
   .dtext {
     position: absolute;
@@ -505,11 +510,13 @@
   .navlink {
     padding: 10px 15px;
     color: white;
+    margin-top: 20%;
   }
   .navlinkactive {
     padding: 10px 15px;
     color: rgba(45, 42, 209, 0.8);
     background-color: gainsboro;
+    margin-top: 20%;
   }
   .main3 a {
     text-decoration: none;
@@ -549,18 +556,18 @@
 /* Contents Display according to screen size */
 
 @media (max-width: 767px) {
-  #content-desktop {
+  /* #content-desktop {
     display: none;
-  }
+  }*/
   #content-mobile {
     display: block;
   }
 }
 
 @media (min-width: 768px) {
-  #content-desktop {
+  /* #content-desktop {
     display: block;
-  }
+  }*/
   #content-mobile {
     display: none;
   }
